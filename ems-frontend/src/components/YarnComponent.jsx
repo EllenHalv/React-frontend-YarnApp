@@ -29,7 +29,7 @@ const YarnComponent = () => {
                                     name={'type'}
                                     className={'form-control'}
                                     value={type}
-                                    onChange={(Event) => handleType(Event.target.value)}
+                                    onChange={(Event) => setType(Event.target.value)}
                                 />
                             </div>
 
