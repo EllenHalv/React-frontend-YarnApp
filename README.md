@@ -24,4 +24,4 @@
 4. Open your browser and go to:
    [http://localhost:3000](http://localhost:3000)
 
-<img src="src/assets/Screenshot 2024-02-19 142904.png" alt="Alt Text" style="width: 650px; height: 280px;">
+<img src="ems-frontend/src/assets/Screenshot 2024-02-19 142904.png" alt="Alt Text" style="width: 650px; height: 280px;">
