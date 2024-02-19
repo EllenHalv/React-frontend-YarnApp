@@ -10,12 +10,16 @@ function App() {
         <BrowserRouter>
         <HeaderComponent />
         <Routes>
-            {/*// base url*/}
+            {/*!// base url*/}
             <Route path={'/'} element={<ListYarnComponent />} ></Route>
-            {/*// /yarns url*/}
+            {/*!// /yarns url*/}
             <Route path={'/yarns'} element={<ListYarnComponent />} ></Route>
-            {/*// /addYarn url*/}
+            {/*!// /addYarn url*/}
             <Route path={'/addYarn'} element={<YarnComponent />} ></Route>
+            {/*!// /updateYarn url*/}
+            <Route path={'/updateYarn/:id'} element={<YarnComponent />} ></Route>
+            {/*!// /deleteYarn url*/}
+            <Route path={'/deleteYarn/:id'} element={<ListYarnComponent />} ></Route>
         </Routes>
         </BrowserRouter>
     </>
